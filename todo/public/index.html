@@ -1,0 +1,39 @@
+<!-- TODO APP -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/styles/styles.css">
+    <title>Todo</title>
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <h1 class="header__title">To-do</h1>
+            <h2 class="header__subtitle">What's on your list?</h2>
+        </div>
+    </div>
+
+    <div class="actions">
+        <div class="actions__container">
+            <input class="input" type="text" id="filter-todo" placeholder="Filter Todos">
+            <label class="checkbox">
+                <input id="hide-completed" type="checkbox"> Hide Completed:
+            </label>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div id="todos"></div>
+        <form id="todo-form">
+            <input class="input" type="text" placeholder="New Todo" name="newTodo">
+            <button class='button'>Add Todo</button>
+        </form>
+
+    </div>
+
+
+    
+    <script src="/scripts/bundle.js"></script>
+</body>
+
+</html>
